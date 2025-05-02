@@ -73,6 +73,7 @@ export default function LoginPage() {
                      }</button>
                 </div>
                 <Link className="text-blue-500" href="/signup">Visit Sign up Page</Link>
+                <Link className="text-blue-500" href="/forgotPassword">Forgot Password</Link>
             </div>
         </div>
     )
