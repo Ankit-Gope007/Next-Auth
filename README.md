@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔐 Next.js JWT Authentication App
 
-## Getting Started
+This project is a **JWT-based Authentication App built using Next.js**. I built it as a **revision project** to sharpen my full-stack development skills using Next.js. Through this, I learned how to manage both the frontend and backend entirely within Next.js, including API routes, server-side logic, and secure email features.
 
-First, run the development server:
+## 📚 Key Things I Learned
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 📁 How to organize a clean and scalable **file structure** in a Next.js full-stack app.
+- 🔐 Implementing **JWT authentication** with access and refresh tokens.
+- 📦 Writing full-stack logic including **backend APIs** inside the Next.js project itself.
+- 📧 Sending emails using **Nodemailer**.
+- 🧪 Using **Mailtrap** to test email delivery safely in development.
+- 🛡️ Creating secure flows for **sign-up verification**, **login**, **forgot password**, and **reset password**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ✅ User Signup
+- ✅ Email Verification
+- ✅ User Login
+- ✅ Forgot Password (via email)
+- ✅ Reset Password (via email)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Next.js (App Router)**
+- **MongoDB with Mongoose**
+- **JWT (jsonwebtoken)**
+- **Nodemailer**
+- **Mailtrap**
+- **Tailwind CSS** (if used)
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Getting Started Locally
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/yourusername/nextjs-jwt-auth.git
+   cd nextjs-jwt-auth
+   ```
+2.	**Install dependencies:**
+     ```bash
+     npm install
+     ```
+3. **Create a .env.local file and add the following variables:**
+    ```bash
+    MONGODB_URI=your_mongo_db_connection_string
+    TOKEN_SECRET=your_jwt_secret
+    DOMAIN=http://localhost:3000
+    MAIL_USER=your_mailtrap_username
+    MAIL_PASS=your_mailtrap_password
+    MAIL_FROM=YourApp <noreply@yourapp.com>
+    ```
+4.	**Run the development server:**
+    ```bash
+    npm run dev
+    ```
+## 📝 Final Notes
+**This project was built from scratch as a hands-on way to revise key concepts in full-stack development using Next.js. It covers everything from secure API routes and email integration to user authentication flows. It’s a solid base for any production-ready auth system and helped me deeply understand how to build one inside the Next.js framework.**
