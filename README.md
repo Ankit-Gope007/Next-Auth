@@ -33,8 +33,8 @@ This project is a **JWT-based Authentication App built using Next.js**. I built 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/nextjs-jwt-auth.git
-   cd nextjs-jwt-auth
+   git clone https://github.com/Ankit-Gope007/Next-Auth.git
+   cd next-auth
    ```
 2.	**Install dependencies:**
      ```bash
