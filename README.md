@@ -26,7 +26,7 @@ This project is a **JWT-based Authentication App built using Next.js**. I built 
 - **JWT (jsonwebtoken)**
 - **Nodemailer**
 - **Mailtrap**
-- **Tailwind CSS** (if used)
+- **Tailwind CSS** 
 
 ## 🚀 Getting Started Locally
 
